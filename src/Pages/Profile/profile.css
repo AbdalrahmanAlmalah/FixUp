@@ -1,0 +1,70 @@
+.profile-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .profile-card {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .profile-content {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .profile-sidebar {
+    flex: 0 0 200px;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .profile-info h3 {
+    margin-top: 0;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  
+  .tickets-section {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .tickets-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tickets-line {
+    position: absolute;
+    padding: 50;
+    top: -10px;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .tickets-count {
+    margin-top: 10px;
+  }
